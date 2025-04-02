@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architectural Visualization Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="#" class="logo">ARCHVIZ</a>
+        <ul class="nav-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">&#9776;</div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="overlay"></div>
+        <h1 class="fade-in">Bringing Architecture to Life Through Motion</h1>
+        <a href="#projects" class="cta-button scroll-to">See Our Work</a>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="services fade-in-scroll">
+        <h2>Our Expertise</h2>
+        <div class="service-grid">
+            <div class="service-item">3D Animations</div>
+            <div class="service-item">VR & AR Experiences</div>
+            <div class="service-item">Multimedia Presentations</div>
+            <div class="service-item">Interactive Walkthroughs</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects fade-in-scroll">
+        <h2>Featured Projects</h2>
+        <div class="project-gallery">
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <div class="overlay-text">Urban Concept Animation</div>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <div class="overlay-text">Futuristic VR Tour</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact fade-in-scroll">
+        <h2>Let's Collaborate</h2>
+        <a href="mailto:contact@yourstudio.com" class="cta-button">Get in Touch</a>
+    </section>
+
+</body>
+</html>
